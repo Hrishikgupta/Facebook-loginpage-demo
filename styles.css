@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+.create-page-text1{
+    width: 20%;
+    text-align: left;
+
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 20%;
+}
+.create-page-text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #166db0;
+}
+
+.forgot-password {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+.create-account {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.create-account a {
+    color: white;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.separator-line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #ddd;
+}
